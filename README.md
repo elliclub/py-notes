@@ -53,6 +53,18 @@ Returns the largest item in an iterable or the largest of two or more arguments.
 >>> max(["hej,"då"], key = lambda x: len(x))
 "hej"
 ```
+### filter()
+Goes through the list, runs the lambda function on every element, and if it returns True, the value stays in the list, other wise, it will get excluded.
+```
+>>> return list(filter(lambda word: len(word) >num, words))
+>>> print(filter_long_words(["hej","tjabba"],3 ))
+["tjabba"]
+```
+### map()
+Goes through the list, runs the lambda function on every element, and return the list.
+```
+>>> print(list(map(lambda x: len(x),["katt"])))
+[4]
 
-
+```
 
