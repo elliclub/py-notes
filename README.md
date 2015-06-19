@@ -63,7 +63,7 @@ Goes through the list, runs the lambda function on every element, and if it retu
 ### map()
 Goes through the list, runs the lambda function on every element, and return the list.
 ```
->>> print(list(map(lambda x: len(x),["katt"])))
+>>> print(list(map(lambda x: len(x), ["katt"])))
 [4]
 
 ```
