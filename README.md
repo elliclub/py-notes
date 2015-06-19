@@ -9,7 +9,7 @@ notes to learn python
 >>> "hi".split()
 ["hi"]
 ```
-Turns the string `"hi"` in to a list 
+Turns the string `"hi"` in to a list. 
 
 ### isalpha()
 If all the characters in a string is alphabetic it returns true, and if it is an alphabetic letter, else it returns false.
@@ -19,7 +19,6 @@ True
 >>> "0".isalpha()
 False
 ```
-Turns the string `"hi"` in to a list 
 
 ## Functions:
 ### list()
@@ -28,6 +27,8 @@ creates a list, splits all the letters from a string.
 >>> list("hi")
 ["h","i"]`
 ```
+
+Split the string `"hi"` into a list. 
 
 ### enumerate()
 Gives every element in a list an index.
