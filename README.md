@@ -5,7 +5,7 @@ notes to learn python
 
 ## String methods:
 ### split()
-```
+```python
 >>> "hi".split()
 ["hi"]
 ```
@@ -13,7 +13,7 @@ Turns the string `"hi"` in to a list.
 
 ### isalpha()
 If all the characters in a string is alphabetic it returns true, and if it is an alphabetic letter, else it returns false.
-```
+```python
 >>> "a".isalpha()
 True
 >>> "0".isalpha()
@@ -32,7 +32,7 @@ Split the string `"hi"` into a list.
 
 ### enumerate()
 Gives every element in a list an index.
-```
+```python
 >>> months= ["jan", "feb", "mars"] 
 >>> list(enumerate(months)) 
 [(0,"jan"), (1,"feb"),(2,"mars")
@@ -40,7 +40,7 @@ Gives every element in a list an index.
 
 ### lambda
 With lambda you can create anonymous functions, functions that are not bound to a name.
-```
+```python
 >>> g = lambda x: x**2
 >>> print g(8)
 64
@@ -48,13 +48,13 @@ With lambda you can create anonymous functions, functions that are not bound to 
 
 ### max()
 Returns the largest item in an iterable or the largest of two or more arguments.
-```
+```python
 >>> max([1,2,3,4])
 4
 ```
 ### filter()
 Goes through the list, runs the lambda function on every element, and if it returns True, the value stays in the list, other wise, it will get excluded.
-```
+```python
 >>> words = ["hej", "hello"]
 >>> num = 3
 >>> list(filter(lambda word: len(word) >num, words))
@@ -62,7 +62,7 @@ Goes through the list, runs the lambda function on every element, and if it retu
 ```
 ### map()
 Goes through the list, runs the lambda function on every element, and return the list.
-```
+```python
 >>> print(list(map(lambda x: len(x), ["katt"])))
 [4]
 
